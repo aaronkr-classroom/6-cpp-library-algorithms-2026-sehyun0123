@@ -123,16 +123,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\5-cpp-containers-2026-sehyun0123\5week\grade.h" />
+    <ClInclude Include="..\..\5-cpp-containers-2026-sehyun0123\5week\median.h" />
+    <ClInclude Include="..\..\5-cpp-containers-2026-sehyun0123\5week\Student_info.h" />
     <ClInclude Include="split.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\5-cpp-containers-2026-sehyun0123\5week\grade.cpp" />
+    <ClCompile Include="..\..\5-cpp-containers-2026-sehyun0123\5week\median.cpp" />
+    <ClCompile Include="..\..\5-cpp-containers-2026-sehyun0123\5week\Student_info.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="palindrome.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="split.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="urls.cpp" />
+    <ClCompile Include="urls.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
